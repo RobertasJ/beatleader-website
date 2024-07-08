@@ -1,9 +1,21 @@
-.idea
-.vscode
 node_modules
-public/build
-build-info.js
-.yarn
-.yarnrc.yml
-# Local Netlify folder
-.netlify
+
+# Output
+.output
+.vercel
+/.svelte-kit
+/build
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+.env.*
+!.env.example
+!.env.test
+
+# Vite
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*

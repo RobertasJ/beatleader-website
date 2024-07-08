@@ -1,12 +1,8 @@
-trailingComma: "es5"
-useTabs: true
-semi: true
-singleQuote: true
-bracketSpacing: false
-bracketSameLine: true
-arrowParens: "avoid"
-printWidth: 140
-overrides:
-- files: "**/*.svelte"
-  options:
-    parser: "svelte"
+{
+	"useTabs": true,
+	"singleQuote": true,
+	"trailingComma": "none",
+	"printWidth": 100,
+	"plugins": ["prettier-plugin-svelte"],
+	"overrides": [{ "files": "*.svelte", "options": { "parser": "svelte" } }]
+}
